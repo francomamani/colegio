@@ -18,6 +18,6 @@ class Estudiante extends Model
     ];
     protected $dates = ['deleted_at'];
     public function usuario() {
-        return $this->belongsTo('App\Usuario');
+        return $this->belongsTo('App\Usuario', 'usuario_id');
     }
 }

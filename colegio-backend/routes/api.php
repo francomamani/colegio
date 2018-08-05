@@ -13,9 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+/*Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
-});
+});*/
 
 //usuarios
 Route::get('usuarios', 'UsuarioController@index');
@@ -26,3 +26,5 @@ Route::resource('profesores', 'ProfesorController', ['except' => ['edit', 'creat
 Route::resource('estudiantes', 'EstudianteController', ['except' => ['edit', 'create']]);
 Route::resource('videos', 'VideoController', ['except' => ['edit', 'create']]);
 Route::resource('paralelos', 'ParaleloController', ['except' => ['edit', 'create']]);
+Route::resource('asignaturas', 'AsignaturaController', ['except' => ['edit', 'create']]);
+Route::resource('asignacion_videos', 'AsignacionVideoController', ['except' => ['edit', 'create']]);

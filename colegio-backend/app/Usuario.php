@@ -41,6 +41,6 @@ class Usuario extends Authenticatable
     protected $dates = ['deleted_at'];
 
     public function gestion() {
-        return $this->belongsTo('App\Gestion');
+        return $this->belongsTo('App\Gestion', 'gestion_id');
     }
 }

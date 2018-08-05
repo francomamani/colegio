@@ -16,6 +16,9 @@ class Curso extends Model
     ];
     protected $dates = ['deleted_at'];
     public function gestion() {
-        return $this->belongsTo('App\Gestion');
+        return $this->belongsTo('App\Gestion', 'gestion_id');
+    }
+    public function paralelos() {
+        return $this->hasMany('App\Paralelo');
     }
 }

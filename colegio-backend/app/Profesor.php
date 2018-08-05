@@ -17,6 +17,9 @@ class Profesor extends Model
     ];
     protected $dates = ['deleted_at'];
     public function usuario() {
-        return $this->hasMany('App\Usuario');
+        return $this->belongsTo('App\Usuario', 'usuario_id');
+    }
+    public function paralelos() {
+        return $this->hasMany('App\Paralelo');
     }
 }

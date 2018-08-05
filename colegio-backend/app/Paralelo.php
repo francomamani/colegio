@@ -17,7 +17,10 @@ class Paralelo extends Model
         'aula',
     ];
     protected $dates = ['deleted_at'];
-    public function gestion() {
-        return $this->belongsTo('App\Gestion');
+    public function curso() {
+        return $this->belongsTo('App\Curso', 'curso_id');
+    }
+    public function profesor() {
+        return $this->belongsTo('App\Profesor', 'profesor_id');
     }
 }
