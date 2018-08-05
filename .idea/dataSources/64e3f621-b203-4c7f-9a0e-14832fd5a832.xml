@@ -948,464 +948,570 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="241" parent="7" name="cursos">
+    <table id="241" parent="7" name="asignacion_videos">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="242" parent="7" name="estudiantes">
+    <table id="242" parent="7" name="asignaturas">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="243" parent="7" name="gestiones">
+    <table id="243" parent="7" name="cursos">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="244" parent="7" name="migrations">
+    <table id="244" parent="7" name="estudiantes">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="245" parent="7" name="paralelos">
+    <table id="245" parent="7" name="gestiones">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="246" parent="7" name="password_resets">
+    <table id="246" parent="7" name="migrations">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="247" parent="7" name="profesores">
+    <table id="247" parent="7" name="paralelos">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="248" parent="7" name="usuarios">
+    <table id="248" parent="7" name="password_resets">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="249" parent="7" name="videos">
+    <table id="249" parent="7" name="profesores">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <column id="250" parent="241" name="curso_id">
+    <table id="250" parent="7" name="usuarios">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="251" parent="7" name="videos">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <column id="252" parent="241" name="asignacion_video_id">
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="251" parent="241" name="gestion_id">
+    <column id="253" parent="241" name="video_id">
       <Position>2</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="252" parent="241" name="nombre">
+    <column id="254" parent="241" name="asignatura_id">
       <Position>3</Position>
-      <DataType>varchar(191)|0s</DataType>
+      <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="253" parent="241" name="deleted_at">
+    <column id="255" parent="241" name="deleted_at">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="254" parent="241" name="created_at">
+    <column id="256" parent="241" name="created_at">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="255" parent="241" name="updated_at">
+    <column id="257" parent="241" name="updated_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="256" parent="241" name="cursos_gestion_id_foreign">
-      <ColNames>gestion_id</ColNames>
+    <index id="258" parent="241" name="asignacion_videos_video_id_foreign">
+      <ColNames>video_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="257" parent="241" name="PRIMARY">
+    <index id="259" parent="241" name="asignacion_videos_asignatura_id_foreign">
+      <ColNames>asignatura_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="260" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>curso_id</ColNames>
+      <ColNames>asignacion_video_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="258" parent="242" name="estudiante_id">
+    <column id="261" parent="242" name="asignatura_id">
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="242" name="usuario_id">
+    <column id="262" parent="242" name="paralelo_id">
       <Position>2</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="260" parent="242" name="rude">
+    <column id="263" parent="242" name="profesor_id">
       <Position>3</Position>
-      <DataType>varchar(50)|0s</DataType>
+      <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="261" parent="242" name="persona_contacto">
+    <column id="264" parent="242" name="nombre">
       <Position>4</Position>
-      <DataType>varchar(50)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="262" parent="242" name="celular_contacto">
-      <Position>5</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="263" parent="242" name="deleted_at">
+    <column id="265" parent="242" name="deleted_at">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="266" parent="242" name="created_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="264" parent="242" name="created_at">
+    <column id="267" parent="242" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="265" parent="242" name="updated_at">
-      <Position>8</Position>
-      <DataType>timestamp|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="266" parent="242" name="estudiantes_usuario_id_foreign">
-      <ColNames>usuario_id</ColNames>
+    <index id="268" parent="242" name="asignaturas_paralelo_id_foreign">
+      <ColNames>paralelo_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="267" parent="242" name="PRIMARY">
+    <index id="269" parent="242" name="asignaturas_profesor_id_foreign">
+      <ColNames>profesor_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="270" parent="242" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>estudiante_id</ColNames>
+      <ColNames>asignatura_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="268" parent="243" name="gestion_id">
+    <column id="271" parent="243" name="curso_id">
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="269" parent="243" name="gestion">
+    <column id="272" parent="243" name="gestion_id">
       <Position>2</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="270" parent="243" name="bimestre">
+    <column id="273" parent="243" name="nombre">
+      <Position>3</Position>
+      <DataType>varchar(191)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="274" parent="243" name="deleted_at">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="275" parent="243" name="created_at">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="276" parent="243" name="updated_at">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="277" parent="243" name="cursos_gestion_id_foreign">
+      <ColNames>gestion_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="278" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>curso_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="279" parent="244" name="estudiante_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="280" parent="244" name="usuario_id">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="281" parent="244" name="rude">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="244" name="persona_contacto">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="244" name="celular_contacto">
+      <Position>5</Position>
+      <DataType>varchar(191)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="244" name="deleted_at">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="244" name="created_at">
+      <Position>7</Position>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="244" name="updated_at">
+      <Position>8</Position>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="287" parent="244" name="estudiantes_usuario_id_foreign">
+      <ColNames>usuario_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="288" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>estudiante_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="289" parent="245" name="gestion_id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="245" name="gestion">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="245" name="bimestre">
       <Position>3</Position>
       <DataType>enum(&apos;Primer bimestre&apos;, &apos;Segundo bimestre&apos;, &apos;Tercer bimestre&apos;, &apos;Cuarto bimestre&apos;)|0e</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="271" parent="243" name="deleted_at">
+    <column id="292" parent="245" name="deleted_at">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="272" parent="243" name="created_at">
+    <column id="293" parent="245" name="created_at">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="273" parent="243" name="updated_at">
+    <column id="294" parent="245" name="updated_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="274" parent="243" name="PRIMARY">
+    <key id="295" parent="245" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>gestion_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="275" parent="244" name="id">
+    <column id="296" parent="246" name="id">
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="276" parent="244" name="migration">
+    <column id="297" parent="246" name="migration">
       <Position>2</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="277" parent="244" name="batch">
+    <column id="298" parent="246" name="batch">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="278" parent="244" name="PRIMARY">
+    <key id="299" parent="246" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="279" parent="245" name="paralelo_id">
+    <column id="300" parent="247" name="paralelo_id">
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="280" parent="245" name="profesor_id">
+    <column id="301" parent="247" name="profesor_id">
       <Position>2</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="245" name="curso_id">
+    <column id="302" parent="247" name="curso_id">
       <Position>3</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="245" name="nombre">
+    <column id="303" parent="247" name="nombre">
       <Position>4</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="245" name="aula">
+    <column id="304" parent="247" name="aula">
       <Position>5</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="245" name="deleted_at">
+    <column id="305" parent="247" name="deleted_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="245" name="created_at">
+    <column id="306" parent="247" name="created_at">
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="245" name="updated_at">
+    <column id="307" parent="247" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="287" parent="245" name="paralelos_profesor_id_foreign">
+    <index id="308" parent="247" name="paralelos_profesor_id_foreign">
       <ColNames>profesor_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="288" parent="245" name="paralelos_curso_id_foreign">
+    <index id="309" parent="247" name="paralelos_curso_id_foreign">
       <ColNames>curso_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="289" parent="245" name="PRIMARY">
+    <key id="310" parent="247" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>paralelo_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="290" parent="246" name="email">
+    <column id="311" parent="248" name="email">
       <Position>1</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="246" name="token">
+    <column id="312" parent="248" name="token">
       <Position>2</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="246" name="created_at">
+    <column id="313" parent="248" name="created_at">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="293" parent="246" name="password_resets_email_index">
+    <index id="314" parent="248" name="password_resets_email_index">
       <ColNames>email</ColNames>
       <Type>btree</Type>
     </index>
-    <column id="294" parent="247" name="profesor_id">
+    <column id="315" parent="249" name="profesor_id">
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="247" name="usuario_id">
+    <column id="316" parent="249" name="usuario_id">
       <Position>2</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="247" name="rda">
+    <column id="317" parent="249" name="rda">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="247" name="grado_academico">
+    <column id="318" parent="249" name="grado_academico">
       <Position>4</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="298" parent="247" name="especialidad">
+    <column id="319" parent="249" name="especialidad">
       <Position>5</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="299" parent="247" name="deleted_at">
+    <column id="320" parent="249" name="deleted_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="247" name="created_at">
+    <column id="321" parent="249" name="created_at">
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="247" name="updated_at">
+    <column id="322" parent="249" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="302" parent="247" name="profesores_usuario_id_foreign">
+    <index id="323" parent="249" name="profesores_usuario_id_foreign">
       <ColNames>usuario_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="303" parent="247" name="PRIMARY">
+    <key id="324" parent="249" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>profesor_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="304" parent="248" name="usuario_id">
+    <column id="325" parent="250" name="usuario_id">
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="305" parent="248" name="gestion_id">
+    <column id="326" parent="250" name="gestion_id">
       <Position>2</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="306" parent="248" name="cuenta">
+    <column id="327" parent="250" name="cuenta">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="307" parent="248" name="password">
+    <column id="328" parent="250" name="password">
       <Position>4</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="308" parent="248" name="nombres">
+    <column id="329" parent="250" name="nombres">
       <Position>5</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="309" parent="248" name="apellidos">
+    <column id="330" parent="250" name="apellidos">
       <Position>6</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="310" parent="248" name="cedula">
+    <column id="331" parent="250" name="cedula">
       <Position>7</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="311" parent="248" name="direccion">
+    <column id="332" parent="250" name="direccion">
       <Position>8</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="312" parent="248" name="celular">
+    <column id="333" parent="250" name="celular">
       <Position>9</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="313" parent="248" name="tipo_usuario">
+    <column id="334" parent="250" name="tipo_usuario">
       <Position>10</Position>
       <DataType>enum(&apos;profesor&apos;, &apos;estudiante&apos;, &apos;administrador&apos;)|0e</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="314" parent="248" name="remember_token">
+    <column id="335" parent="250" name="remember_token">
       <Position>11</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="315" parent="248" name="created_at">
+    <column id="336" parent="250" name="created_at">
       <Position>12</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="316" parent="248" name="updated_at">
+    <column id="337" parent="250" name="updated_at">
       <Position>13</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="317" parent="248" name="usuarios_cuenta_unique">
+    <index id="338" parent="250" name="usuarios_cuenta_unique">
       <ColNames>cuenta</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="318" parent="248" name="usuarios_gestion_id_foreign">
+    <index id="339" parent="250" name="usuarios_gestion_id_foreign">
       <ColNames>gestion_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="319" parent="248" name="PRIMARY">
+    <key id="340" parent="250" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>usuario_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="320" parent="248" name="usuarios_cuenta_unique">
+    <key id="341" parent="250" name="usuarios_cuenta_unique">
       <ColNames>cuenta</ColNames>
       <UnderlyingIndexName>usuarios_cuenta_unique</UnderlyingIndexName>
     </key>
-    <column id="321" parent="249" name="video_id">
+    <column id="342" parent="251" name="video_id">
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="322" parent="249" name="url">
+    <column id="343" parent="251" name="url">
       <Position>2</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="323" parent="249" name="titulo">
+    <column id="344" parent="251" name="titulo">
       <Position>3</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="324" parent="249" name="descripcion">
+    <column id="345" parent="251" name="descripcion">
       <Position>4</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="325" parent="249" name="deleted_at">
+    <column id="346" parent="251" name="deleted_at">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="326" parent="249" name="created_at">
+    <column id="347" parent="251" name="created_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="327" parent="249" name="updated_at">
+    <column id="348" parent="251" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="328" parent="249" name="PRIMARY">
+    <key id="349" parent="251" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>video_id</ColNames>
       <Primary>1</Primary>
