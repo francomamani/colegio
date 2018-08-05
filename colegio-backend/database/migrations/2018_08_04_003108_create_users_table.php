@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
                   ->on('gestiones')
                   ->onDelete('cascade');
             $table->string('cuenta', 50)->unique();
-            $table->string('password', 50);
+            $table->string('password');
             $table->string('nombres');
             $table->string('apellidos');
             $table->string('cedula', 50);

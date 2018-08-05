@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Usuario;
 use Illuminate\Support\Facades\Hash;
 
 class UsuarioController extends Controller

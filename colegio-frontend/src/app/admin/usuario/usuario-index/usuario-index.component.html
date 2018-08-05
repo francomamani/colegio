@@ -1,0 +1,44 @@
+<div class="container-fluid">
+  <div class="content">
+    <div class="row">
+      <div class="col-md-12">
+        Usuarios > <a routerLink="/admin/crear">Crear</a>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+            <tr>
+              <th>N.</th>
+              <th>Cuenta</th>
+              <th>Nombres</th>
+              <th>Apellidos</th>
+              <th>Cedula</th>
+              <th>Direccion</th>
+              <th>Celular</th>
+              <th>Tipo de Usuario</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let usuario of usuarios; let i = index">
+              <td>{{ i + 1 }}</td>
+              <td>{{ usuario.cuenta }}</td>
+              <td>{{ usuario.nombres }}</td>
+              <td>{{ usuario.apellidos }}</td>
+              <td>{{ usuario.cedula }}</td>
+              <td>{{ usuario.direccion }}</td>
+              <td>{{ usuario.celular }}</td>
+              <td>{{ usuario.tipo_usuario }}</td>
+            </tr>
+            </tbody>
+          </table>
+          <pagination
+                    previousText="Anterior"
+                    nextText="Siguiente"
+                    (pageChanged)="loadPage($event)"
+                    [itemsPerPage]="controls.per_page"
+                    [totalItems]="controls.total"></pagination>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

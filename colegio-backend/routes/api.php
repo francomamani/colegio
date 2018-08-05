@@ -20,6 +20,8 @@ use Illuminate\Http\Request;
 //usuarios
 Route::get('usuarios', 'UsuarioController@index');
 Route::post('usuarios', 'UsuarioController@store');
+Route::post('login', 'AuthController@login');
+Route::get('get-usuario', 'AuthController@getUsuario');
 Route::resource('gestiones', 'GestionController', ['except' => ['edit', 'create']]);
 Route::resource('cursos', 'CursoController', ['except' => ['edit', 'create']]);
 Route::resource('profesores', 'ProfesorController', ['except' => ['edit', 'create']]);

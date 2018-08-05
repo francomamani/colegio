@@ -1,0 +1,41 @@
+<nav class="app-menu">
+    <div class="app-spacer"></div>
+    <span class="app-user">
+        {{ authService.usuario}}
+    </span>
+    <a routerLink="/login/logout"
+       tooltip="Salir"
+       placement="bottom" *ngIf="authService.autenticado()"><i class="fas fa-sign-out-alt"></i></a>
+    <a routerLink="/inicio"
+       tooltip="Inicio"
+       placement="bottom" *ngIf="!authService.autenticado()"><i class="fas fa-home"></i></a>
+    <a routerLink="/login"
+        tooltip="Ingreso"
+        placement="bottom" *ngIf="!authService.autenticado()"><i class="fas fa-user"></i></a>
+</nav>
+<router-outlet *ngIf="!authService.autenticado()" (notify)="signIn($event)"></router-outlet>
+
+<section class="app-container" *ngIf="authService.autenticado()">
+    <aside class="app-sidebar">
+        <a class="app-title">Administracion</a>
+        <a routerLink="/admin/listar">Gestiones</a>
+        <a routerLink="/admin/listar" [class.app-selected]="router.url === '/admin/listar' || router.url === '/admin/crear'">Usuarios</a>
+        <a routerLink="/admin/listar">Cursos</a>
+        <a routerLink="/admin/listar">Paralelos</a>
+        <a routerLink="/admin/listar">Estudiantes</a>
+        <a routerLink="/admin/listar">Inscripciones</a>
+        <a routerLink="/admin/listar">Docentes</a>
+        <a routerLink="/admin/listar">Asignaturas</a>
+        <a routerLink="/admin/listar">Horarios</a>
+        <a routerLink="/admin/listar">Videos</a>
+        <a routerLink="/admin/listar">Comunicados</a>
+        <a routerLink="/admin/listar">Galeria</a>
+        <a class="app-title">Profesor</a>
+        <a routerLink="/admin/listar">Mis Asignaturas</a>
+        <a class="app-title">Estudiante</a>
+        <a routerLink="/admin/listar">Mis Asignaturas</a>
+    </aside>
+    <section class="app-content">
+        <router-outlet (notify)="signIn($event)"></router-outlet>
+    </section>
+</section>

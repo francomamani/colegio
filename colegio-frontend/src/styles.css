@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+}
+.app-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: #1976D2;
+    height: 7vh;
+}
+.app-spacer {
+    flex: 1 1 auto;
+}
+.app-menu > a {
+    color: whitesmoke;
+    min-width: 80px;
+    text-align: center;
+}
+.app-container{
+    display: flex;
+    flex-direction: row;
+}
+.app-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    height: 93vh;
+    border-right: 1px solid lightgray;
+}
+.app-content {
+    width: 80%;
+    height: 90vh;
+}
+.card {
+    margin-top: 5em;
+}
+.none {
+    display: none;
+}
+.app-full {
+    width: 100%;
+}
+.app-slide {
+    height: 500px;
+    background-color: #1b1e21;
+}
+.app-title {
+    font-weight: bold;
+}
+.app-sidebar > a {
+    box-sizing: border-box;
+    width: 100%;
+    padding: .5em 1em;
+    color: #1b1e21;
+    text-decoration: none;
+}
+a.app-selected {
+    color: #1976D2;
+}
+.app-user {
+    color: whitesmoke;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
