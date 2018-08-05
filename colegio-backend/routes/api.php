@@ -16,3 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+//usuarios
+Route::get('usuarios', 'UsuarioController@index');
+Route::post('usuarios', 'UsuarioController@store');
+Route::resource('gestiones', 'GestionController', ['except' => ['edit', 'create']]);
+Route::resource('cursos', 'CursoController', ['except' => ['edit', 'create']]);
+Route::resource('profesores', 'ProfesorController', ['except' => ['edit', 'create']]);
+Route::resource('estudiantes', 'EstudianteController', ['except' => ['edit', 'create']]);
