@@ -16,7 +16,15 @@ class CreateCalificacionsTable extends Migration
         Schema::create('calificaciones', function (Blueprint $table) {
             $table->increments('calificacion_id');
             $table->integer('asignatura_id')->unsigned();
+            $table->foreign('asignatura_id')
+                  ->references('asignatura_id')
+                  ->on('asignaturas')
+                  ->onDelete('cascade');
             $table->integer('inscripcion_id')->unsigned();
+            $table->foreign('inscripcion_id')
+                ->references('inscripcion_id')
+                ->on('inscripciones')
+                ->onDelete('cascade');
             $table->enum('bimestre', ['Primer bimestre', 'Segundo bimestre', 'Tercer bimestre', 'Cuarto bimestre']);
             $table->float('calificacion_1');
             $table->float('calificacion_2');

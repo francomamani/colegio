@@ -28,6 +28,7 @@ class CreateUsersTable extends Migration
             $table->string('direccion');
             $table->string('celular', 50);
             $table->enum('tipo_usuario', ['profesor', 'estudiante', 'administrador']);
+            $table->softDeletes();
             $table->rememberToken();
             $table->timestamps();
         });
