@@ -24,3 +24,5 @@ Route::resource('gestiones', 'GestionController', ['except' => ['edit', 'create'
 Route::resource('cursos', 'CursoController', ['except' => ['edit', 'create']]);
 Route::resource('profesores', 'ProfesorController', ['except' => ['edit', 'create']]);
 Route::resource('estudiantes', 'EstudianteController', ['except' => ['edit', 'create']]);
+Route::resource('videos', 'VideoController', ['except' => ['edit', 'create']]);
+Route::resource('paralelos', 'ParaleloController', ['except' => ['edit', 'create']]);
