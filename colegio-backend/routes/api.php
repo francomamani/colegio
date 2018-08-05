@@ -28,3 +28,4 @@ Route::resource('videos', 'VideoController', ['except' => ['edit', 'create']]);
 Route::resource('paralelos', 'ParaleloController', ['except' => ['edit', 'create']]);
 Route::resource('asignaturas', 'AsignaturaController', ['except' => ['edit', 'create']]);
 Route::resource('asignacion_videos', 'AsignacionVideoController', ['except' => ['edit', 'create']]);
+Route::resource('horarios', 'HorarioController', ['except' => ['edit', 'create']]);

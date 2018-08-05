@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bfd555e-b4b3-4a1a-be30-f90f10a8204e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-backend/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colegio-backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/colegio-backend/config/database.php">
+      <file leaf-file-name="Horario.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/colegio-backend/app/Horario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+            <state relative-caret-position="693">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -63,6 +62,7 @@
       <find>providers</find>
       <find>handle</find>
       <find>ttl</find>
+      <find>timezone</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,8 +111,11 @@
         <option value="$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_225418_create_asignacion_videos_table.php" />
         <option value="$PROJECT_DIR$/colegio-backend/app/AsignacionVideo.php" />
         <option value="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/AsignacionVideoController.php" />
-        <option value="$PROJECT_DIR$/colegio-backend/routes/api.php" />
         <option value="$PROJECT_DIR$/colegio-backend/config/database.php" />
+        <option value="$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_233152_create_horarios_table.php" />
+        <option value="$PROJECT_DIR$/colegio-backend/app/Horario.php" />
+        <option value="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/HorarioController.php" />
+        <option value="$PROJECT_DIR$/colegio-backend/routes/api.php" />
       </list>
     </option>
   </component>
@@ -249,7 +252,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="database.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/database.php&#10;api&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/routes/api.php&#10;asignacion&#9;null&#9;null&#10;cursocon&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/CursoController.php&#10;asi&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/AsignacionVideo.php&#10;curs&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Curso.php&#10;asigna&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/AsignacionVideo.php&#10;curso&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Curso.php&#10;asig&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Asignatura.php&#10;asign&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/AsignaturaController.php&#10;PAral&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/ParaleloController.php&#10;asignatura&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_224419_create_asignaturas_table.php&#10;profeso&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Profesor.php&#10;parale&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Paralelo.php&#10;paral&#9;null&#9;null&#10;paralel&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Paralelo.php&#10;paralelos&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_222603_create_paralelos_table.php&#10;video&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_221734_create_videos_table.php&#10;videocontro&#9;null&#9;null&#10;videos&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_221734_create_videos_table.php&#10;estudian&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Estudiante.php&#10;estudia&#9;null&#9;null&#10;profe&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/ProfesorController.php&#10;profesor&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Profesor.php&#10;estudiante&#9;null&#9;null&#10;jwt.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/jwt.php&#10;.env&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/.env&#10;gestion&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Gestion.php&#10;usuar&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Usuario.php&#10;ges&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Gestion.php&#10;profes&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/ProfesorController.php&#10;profesorcontro&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/ProfesorController.php&#10;gestioncontr&#9;null&#9;null&#10;pro&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Profesor.php&#10;usuario&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Usuario.php&#10;usuario.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Usuario.php&#10;cursocontro&#9;null&#9;null&#10;cur&#9;null&#9;null&#10;users&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_05_003108_create_users_table.php&#10;cursos&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_211617_create_cursos_table.php&#10;config&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/vendor/tymon/jwt-auth/src/config/config.php&#10;jwtgen&#9;null&#9;null&#10;config.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/vendor/tymon/jwt-auth/src/config/config.php&#10;app.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/app.php&#10;composer.json&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/composer.json&#10;api.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/routes/api.php&#10;appservi&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="horario&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Horario.php&#10;horarios&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_233152_create_horarios_table.php&#10;api&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/routes/api.php&#10;horariocontro&#9;null&#9;null&#10;curso&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/CursoController.php&#10;app.&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/app.php&#10;app.ph&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/app.php&#10;database.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/database.php&#10;asignacion&#9;null&#9;null&#10;cursocon&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/CursoController.php&#10;asi&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/AsignacionVideo.php&#10;curs&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Curso.php&#10;asigna&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/AsignacionVideo.php&#10;asig&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Asignatura.php&#10;asign&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/AsignaturaController.php&#10;PAral&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/ParaleloController.php&#10;asignatura&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_224419_create_asignaturas_table.php&#10;profeso&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Profesor.php&#10;parale&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Paralelo.php&#10;paral&#9;null&#9;null&#10;paralel&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Paralelo.php&#10;paralelos&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_222603_create_paralelos_table.php&#10;video&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_221734_create_videos_table.php&#10;videocontro&#9;null&#9;null&#10;videos&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_221734_create_videos_table.php&#10;estudian&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Estudiante.php&#10;estudia&#9;null&#9;null&#10;profe&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/ProfesorController.php&#10;profesor&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Profesor.php&#10;estudiante&#9;null&#9;null&#10;jwt.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/jwt.php&#10;.env&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/.env&#10;gestion&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Gestion.php&#10;usuar&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Usuario.php&#10;ges&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Gestion.php&#10;profes&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/ProfesorController.php&#10;profesorcontro&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/ProfesorController.php&#10;gestioncontr&#9;null&#9;null&#10;pro&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Profesor.php&#10;usuario&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Usuario.php&#10;usuario.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Usuario.php&#10;cursocontro&#9;null&#9;null&#10;cur&#9;null&#9;null&#10;users&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_05_003108_create_users_table.php&#10;cursos&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_211617_create_cursos_table.php&#10;config&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/vendor/tymon/jwt-auth/src/config/config.php&#10;jwtgen&#9;null&#9;null&#10;config.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/vendor/tymon/jwt-auth/src/config/config.php&#10;app.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/app.php&#10;composer.json&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/composer.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -278,12 +281,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533427732925</updated>
       <workItem from="1533427734135" duration="711000" />
-      <workItem from="1533428499760" duration="10812000" />
+      <workItem from="1533428499760" duration="11620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11523000" />
+    <option name="totallyTimeSpent" value="12331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="864" extended-state="6" />
@@ -382,13 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="212" column="50" lean-forward="true" selection-start-line="212" selection-start-column="50" selection-end-line="212" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/colegio-backend/vendor/tymon/jwt-auth/src/Commands/JWTGenerateCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -406,14 +402,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_05_003108_create_users_table.php">
+    <entry file="file://$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_003108_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_05_003107_create_gestions_table.php">
+    <entry file="file://$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_003107_create_gestions_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
@@ -596,27 +592,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Curso.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/colegio-backend/app/AsignacionVideo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Http/Controllers/CursoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -627,17 +606,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/routes/api.php">
+    <entry file="file://$PROJECT_DIR$/colegio-backend/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="35">
+          <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/config/database.php">
+    <entry file="file://$PROJECT_DIR$/colegio-backend/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        <state relative-caret-position="35">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Curso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Http/Controllers/CursoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="37" selection-start-line="9" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="30" column="83" lean-forward="true" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_233152_create_horarios_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Http/Controllers/HorarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Horario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
