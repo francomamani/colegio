@@ -33,3 +33,5 @@ Route::resource('inscripciones', 'InscripcionController', ['except' => ['edit', 
 Route::resource('calificaciones', 'CalificacionController', ['except' => ['edit', 'create']]);
 Route::resource('comunicados', 'ComunicadoController', ['except' => ['edit', 'create']]);
 Route::resource('imagenes', 'ImagenController', ['except' => ['edit', 'create']]);
+Route::resource('permisos', 'PermisoController', ['except' => ['edit', 'create']]);
+Route::resource('tipo_asignaturas', 'TipoAsignaturaController', ['except' => ['edit', 'create']]);

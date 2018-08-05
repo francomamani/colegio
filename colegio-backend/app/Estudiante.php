@@ -20,4 +20,10 @@ class Estudiante extends Model
     public function usuario() {
         return $this->belongsTo('App\Usuario', 'usuario_id');
     }
+    public function inscripcion() {
+        return $this->hasOne('App\Inscripcion');
+    }
+    public function permisos() {
+        return $this->hasMany('App\Permiso');
+    }
 }
