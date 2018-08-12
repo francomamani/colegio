@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bfd555e-b4b3-4a1a-be30-f90f10a8204e" name="Default" comment="fixes of database (migrations)">
-      <change afterPath="$PROJECT_DIR$/colegio-frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colegio-frontend/src/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64e3f621-b203-4c7f-9a0e-14832fd5a832.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/64e3f621-b203-4c7f-9a0e-14832fd5a832.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/UsuarioController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-backend/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_003108_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_003108_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-backend/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-backend/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colegio-backend/app/Gestion.php" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/app/Gestion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/GestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/GestionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/colegio-frontend/.angular-cli.json" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/.angular-cli.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/colegio-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/colegio-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colegio-frontend/src/app/admin/admin-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/src/app/admin/admin-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colegio-frontend/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/src/app/admin/admin.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/colegio-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-frontend/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colegio-frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colegio-frontend/src/app/layout/layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/src/app/layout/layout.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/colegio-frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/colegio-frontend/src/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,16 +53,26 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="colegio: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="colegio@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="colegio: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="gestiones: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="colegio" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/layout/layout.component.html">
+      <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/colegio-backend/app/Usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="21" column="122" selection-start-line="21" selection-start-column="122" selection-end-line="21" selection-end-column="122" />
+            <state relative-caret-position="99">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -97,6 +102,8 @@
       <find>login</find>
       <find>user</find>
       <find>providers</find>
+      <find>gres</find>
+      <find>gestiones</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,27 +117,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/ComunicadoController.php" />
-        <option value="$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_05_071156_create_imagens_table.php" />
-        <option value="$PROJECT_DIR$/colegio-backend/app/Imagen.php" />
-        <option value="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/ImagenController.php" />
-        <option value="$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_05_074817_create_permisos_table.php" />
-        <option value="$PROJECT_DIR$/colegio-backend/app/Permiso.php" />
-        <option value="$PROJECT_DIR$/colegio-backend/app/Estudiante.php" />
-        <option value="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/PermisoController.php" />
-        <option value="$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_05_080006_create_tipo_asignaturas_table.php" />
         <option value="$PROJECT_DIR$/colegio-backend/app/TipoAsignatura.php" />
         <option value="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/TipoAsignaturaController.php" />
         <option value="$PROJECT_DIR$/colegio-backend/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_05_065704_create_calificacions_table.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/64e3f621-b203-4c7f-9a0e-14832fd5a832/console.sql" />
         <option value="$PROJECT_DIR$/colegio-backend/app/Http/Middleware/Cors.php" />
         <option value="$PROJECT_DIR$/colegio-backend/package.json" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/index.html" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/colegio-frontend/package.json" />
-        <option value="$PROJECT_DIR$/colegio-frontend/.angular-cli.json" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/inicio/inicio.component.html" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/dashboard/dashboard-routing.module.ts.js" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/dashboard/dashboard.module.ts" />
@@ -139,28 +135,39 @@
         <option value="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/UsuarioController.php" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario.component.ts" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario.component.html" />
-        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/admin-routing.module.ts" />
         <option value="$PROJECT_DIR$/colegio-backend/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_003108_create_users_table.php" />
         <option value="$PROJECT_DIR$/colegio-backend/config/auth.php" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/auth.guard.ts" />
-        <option value="$PROJECT_DIR$/colegio-frontend/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/inicio/inicio.component.ts" />
         <option value="$PROJECT_DIR$/colegio-backend/routes/api.php" />
         <option value="$PROJECT_DIR$/colegio-backend/public/.htaccess" />
-        <option value="$PROJECT_DIR$/colegio-frontend/src/styles.css" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/AuthController.php" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/layout/layout.component.ts" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/auth.service.ts" />
-        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/admin.module.ts" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario.service.ts" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.ts" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.html" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario-create/usuario-create.component.html" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion.component.html" />
+        <option value="$PROJECT_DIR$/colegio-frontend/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/style.scss" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/styles.css" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/admin-routing.module.ts" />
         <option value="$PROJECT_DIR$/colegio-frontend/src/app/layout/layout.component.html" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion-create/gestion-create.component.html" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion-create/gestion-create.component.ts" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/admin.module.ts" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion.service.ts" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion-index/gestion-index.component.html" />
+        <option value="$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion-index/gestion-index.component.ts" />
+        <option value="$PROJECT_DIR$/colegio-backend/app/Http/Controllers/GestionController.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/64e3f621-b203-4c7f-9a0e-14832fd5a832/console.sql" />
+        <option value="$PROJECT_DIR$/colegio-backend/app/Gestion.php" />
       </list>
     </option>
   </component>
@@ -260,11 +267,9 @@
       <path value="$PROJECT_DIR$/colegio/vendor/hamcrest/hamcrest-php" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -290,38 +295,6 @@
               <item name="colegio-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="colegio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="colegio" type="462c0819:PsiDirectoryNode" />
-              <item name="colegio-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="colegio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="colegio" type="462c0819:PsiDirectoryNode" />
-              <item name="colegio-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="colegio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="colegio" type="462c0819:PsiDirectoryNode" />
-              <item name="colegio-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="usuario" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="colegio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="colegio" type="462c0819:PsiDirectoryNode" />
-              <item name="colegio-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -330,10 +303,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/layout/layout.component.html&#10;usuario.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Usuario.php&#10;usuariocre&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-create/usuario-create.component.html&#10;layout&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/layout/layout.component.html&#10;usuarioser&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario.service.ts&#10;adminmod&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/admin.module.ts&#10;usuarioindex&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.ts&#10;autser&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/auth.service.ts&#10;layou&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/layout/layout.component.html&#10;app.c&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app.component.html&#10;usu&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.html&#10;usuarioin&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.ts&#10;usuarioinde&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.ts&#10;usuariocrea&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-create/usuario-create.component.ts&#10;authser&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/auth.service.ts&#10;usersta&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_003108_create_users_table.php&#10;auth&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/auth.service.ts&#10;login&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/login/login.component.ts&#10;approut&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app-routing.module.ts&#10;routing&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/admin-routing.module.ts&#10;style&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/styles.css&#10;htacc&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/public/.htaccess&#10;jwtauth&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/vendor/tymon/jwt-auth/src/Facades/JWTAuth.php&#10;api&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/routes/api.php&#10;authcontro&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/AuthController.php&#10;inicio&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/inicio/inicio.component.ts&#10;approu&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app-routing.module.ts&#10;app.mo&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app.module.ts&#10;auth.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/auth.php&#10;config.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/vendor/tymon/jwt-auth/src/config/config.php&#10;jwt.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/config/jwt.php&#10;usuariocontro&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/UsuarioController.php&#10;users&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_003108_create_users_table.php&#10;.env&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/.env&#10;gestion&#9;null&#9;null&#10;databasesee&#9;null&#9;null&#10;usuario&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario.component.html&#10;admirou&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/admin-routing.module.ts&#10;usuariocom&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario.component.ts&#10;usuario in&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.ts&#10;usuariocontr&#9;null&#9;null&#10;envi&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/environments/environment.prod.ts&#10;usuariocompo&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario.component.html&#10;styl&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/styles.css&#10;app&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app-routing.module.ts&#10;a&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app-routing.module.ts&#10;s&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/styles.css&#10;angul&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/.angular-cli.json&#10;pa&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="usuario&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Usuario.php&#10;gestion.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Gestion.php&#10;curso&#9;null&#9;null&#10;usuario.php&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Usuario.php&#10;gestioncontro&#9;null&#9;null&#10;gestioncon&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/GestionController.php&#10;api&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/routes/api.php&#10;gestioncont&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/GestionController.php&#10;gestionser&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/gestion/gestion.service.ts&#10;gestionind&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/gestion/gestion-index/gestion-index.component.ts&#10;gestiontable&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_003107_create_gestions_table.php&#10;gestioninde&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/gestion/gestion-index/gestion-index.component.html&#10;app&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app.module.ts&#10;adminmo&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/admin.module.ts&#10;gestioncre&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/gestion/gestion-create/gestion-create.component.ts&#10;gestioncreate&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/gestion/gestion-create/gestion-create.component.ts&#10;gestion&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/gestion/gestion-create/gestion-create.component.html&#10;appmo&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app.module.ts&#10;admin&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/admin.module.ts&#10;layou&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/layout/layout.component.html&#10;gestioncrea&#9;null&#9;null&#10;styles&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/styles.css&#10;angular&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/.angular-cli.json&#10;style&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/styles.css&#10;angularcli&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/.angular-cli.json&#10;gestionindexts&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/gestion/gestion-index/gestion-index.component.ts&#10;gestionin&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/gestion/gestion-index/gestion-index.component.html&#10;usuarioinde&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.html&#10;approu&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app-routing.module.ts&#10;adminrou&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/admin-routing.module.ts&#10;usuarioindex&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.html&#10;authser&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/auth.service.ts&#10;auth&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/AuthController.php&#10;usuariocre&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-create/usuario-create.component.html&#10;layout&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/layout/layout.component.html&#10;usuarioser&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario.service.ts&#10;adminmod&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/admin.module.ts&#10;autser&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/auth.service.ts&#10;app.c&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app.component.html&#10;usu&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.html&#10;usuarioin&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.ts&#10;usuariocrea&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/usuario/usuario-create/usuario-create.component.ts&#10;usersta&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/database/migrations/2018_08_04_003108_create_users_table.php&#10;login&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/login/login.component.ts&#10;approut&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/app-routing.module.ts&#10;routing&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-frontend/src/app/admin/admin-routing.module.ts&#10;htacc&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/public/.htaccess&#10;jwtauth&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/vendor/tymon/jwt-auth/src/Facades/JWTAuth.php&#10;authcontro&#9;FILE&#9;file://C:/Users/HP User/Documents/trabajos/colegio/colegio-backend/app/Http/Controllers/AuthController.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../coda/practicas/fni-before-version" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -370,7 +343,11 @@
       <workItem from="1533427734135" duration="711000" />
       <workItem from="1533428499760" duration="11620000" />
       <workItem from="1533465833491" duration="23942000" />
-      <workItem from="1533492576891" duration="15317000" />
+      <workItem from="1533492576891" duration="15527000" />
+      <workItem from="1533785505134" duration="1738000" />
+      <workItem from="1533839773613" duration="609000" />
+      <workItem from="1533843062609" duration="94000" />
+      <workItem from="1534027825984" duration="5682000" />
     </task>
     <task id="LOCAL-00001" summary="base de datos terminada">
       <created>1533470670521</created>
@@ -390,34 +367,34 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51590000" />
+    <option name="totallyTimeSpent" value="59923000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1536" height="864" extended-state="6" />
+    <frame x="0" y="0" width="1536" height="864" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32226562" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5740741" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.6134259" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965278" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32226562" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5034722" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298611" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.6134259" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298611" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,104 +409,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="fixes of database (migrations)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/node_modules/@fortawesome/fontawesome-free/css/all.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" selection-start-line="21" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/inicio/inicio.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/dashboard/dashboard/dashboard.module.ts" />
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/dashboard/dashboard.module.ts" />
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/dashboard/dashboard-routing.module.ts" />
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/polyfills.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/environments/environment.prod.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Gestion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7#23#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Http/Controllers/UsuarioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/vendor/tymon/jwt-auth/src/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/config/jwt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/colegio-backend/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -558,19 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,16 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -609,33 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/admin-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,28 +493,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_003108_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Http/Controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,11 +527,12 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="768.0" y="418.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="768.0" y="419.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -727,16 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,75 +585,354 @@
               <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="317.5" y="253.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="318.0" y="254.0" />
           <SelectedNodes>
             <node>$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario.service.ts#UsuarioService#164;</node>
           </SelectedNodes>
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/admin.module.ts">
+    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Http/Controllers/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.html">
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state>
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="uml://DATABASE/64e3f621-b203-4c7f-9a0e-14832fd5a832.SCHEMA:colegio">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>64e3f621-b203-4c7f-9a0e-14832fd5a832.SCHEMA:colegio</OriginalElement>
+          <nodes>
+            <node x="221.0" y="1751.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.password_resets</node>
+            <node x="22.250000000000114" y="1156.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.inscripciones</node>
+            <node x="759.1583333333333" y="1478.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.asignacion_videos</node>
+            <node x="645.1916666666666" y="212.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.usuarios</node>
+            <node x="1363.6916666666666" y="0.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.imagenes</node>
+            <node x="541.0" y="1167.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.asignaturas</node>
+            <node x="0.0" y="1751.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.migrations</node>
+            <node x="834.6916666666666" y="856.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.permisos</node>
+            <node x="1605.6916666666666" y="0.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.tipo_asignaturas</node>
+            <node x="603.6916666666666" y="600.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.profesores</node>
+            <node x="407.50000000000006" y="0.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.gestiones</node>
+            <node x="834.6916666666666" y="600.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.estudiantes</node>
+            <node x="541.0" y="1456.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.horarios</node>
+            <node x="853.6583333333333" y="1167.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.videos</node>
+            <node x="475.9083333333333" y="878.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.paralelos</node>
+            <node x="1094.6916666666666" y="0.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.comunicados</node>
+            <node x="428.4083333333333" y="300.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.cursos</node>
+            <node x="0.0" y="1412.0">64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.calificaciones</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.asignacion_videos" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.videos">
+              <point x="62.5" y="-81.0" />
+              <point x="0.0" y="92.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.asignaturas" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.paralelos">
+              <point x="-53.75" y="-92.0" />
+              <point x="594.75" y="1131.0" />
+              <point x="577.9083333333333" y="1131.0" />
+              <point x="0.0" y="103.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.estudiantes" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.usuarios">
+              <point x="0.0" y="-103.0" />
+              <point x="942.1916666666666" y="575.0" />
+              <point x="915.9416666666666" y="575.0" />
+              <point x="90.25" y="169.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.calificaciones" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.asignaturas">
+              <point x="130.25" y="-147.0" />
+              <point x="390.75" y="1387.0" />
+              <point x="576.8333333333334" y="1387.0" />
+              <point x="-71.66666666666669" y="92.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.cursos" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.gestiones">
+              <point x="0.0" y="-81.0" />
+              <point x="526.9083333333333" y="187.0" />
+              <point x="537.75" y="187.0" />
+              <point x="-130.25" y="81.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.asignacion_videos" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.asignaturas">
+              <point x="-62.5" y="-81.0" />
+              <point x="821.6583333333333" y="1387.0" />
+              <point x="720.1666666666667" y="1387.0" />
+              <point x="71.66666666666669" y="92.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.profesores" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.usuarios">
+              <point x="-5.6843418860808015E-14" y="-103.0" />
+              <point x="709.1916666666666" y="575.0" />
+              <point x="735.4416666666666" y="575.0" />
+              <point x="-90.25" y="169.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.paralelos" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.profesores">
+              <point x="51.0" y="-103.0" />
+              <point x="628.9083333333333" y="831.0" />
+              <point x="656.4416666666666" y="831.0" />
+              <point x="-52.75" y="103.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.usuarios" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.gestiones">
+              <point x="0.0" y="-169.0" />
+              <point x="825.6916666666666" y="187.0" />
+              <point x="798.25" y="187.0" />
+              <point x="130.25" y="81.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.calificaciones" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.inscripciones">
+              <point x="-130.25" y="-147.0" />
+              <point x="0.0" y="103.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.asignaturas" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.profesores">
+              <point x="53.75" y="-92.0" />
+              <point x="702.25" y="1131.0" />
+              <point x="761.9416666666666" y="1131.0" />
+              <point x="52.74999999999994" y="103.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.paralelos" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.cursos">
+              <point x="-51.0" y="-103.0" />
+              <point x="0.0" y="81.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.permisos" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.estudiantes">
+              <point x="0.0" y="-125.0" />
+              <point x="0.0" y="103.0" />
+            </edge>
+            <edge source="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.horarios" target="64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.asignaturas">
+              <point x="0.0" y="-103.0" />
+              <point x="0.0" y="92.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.5644349223352976" x="611.2699103621723" y="257.50873048479866" />
+          <SelectedNodes>
+            <node>64e3f621-b203-4c7f-9a0e-14832fd5a832.TABLE:colegio.calificaciones</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario-create/usuario-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/style.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/admin-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/layout/layout.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario-index/usuario-index.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="594">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion-create/gestion-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion-create/gestion-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
           <folding>
-            <element signature="e#0#70#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/admin.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/database/migrations/2018_08_04_003107_create_gestions_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion-index/gestion-index.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="82" lean-forward="true" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Curso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/gestion/gestion-index/gestion-index.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="48" column="53" lean-forward="true" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Http/Controllers/GestionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/64e3f621-b203-4c7f-9a0e-14832fd5a832/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colegio-backend/app/Gestion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/colegio-backend/app/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="e#23#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/admin/usuario/usuario-create/usuario-create.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="63" column="72" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colegio-frontend/src/app/layout/layout.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="21" column="122" selection-start-line="21" selection-start-column="122" selection-end-line="21" selection-end-column="122" />
+        <state relative-caret-position="99">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

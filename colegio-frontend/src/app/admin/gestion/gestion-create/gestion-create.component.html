@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="content">
+    <div class="row">
+      <div class="col-md-12">
+        Gestiones > <a routerLink="/admin/gestion/listar">Listar</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-2 col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Registrar Gestion</h4>
+            <form (submit)="store()" [formGroup]="gestionGroup">
+              <div class="form-group">
+                <label>Gestion</label>
+                <input type="number"
+                       class="form-control"
+                       formControlName="gestion">
+                <small id="gestion" class="text-muted">Ingrese la gestion</small>
+              </div>
+              <div class="form-group">
+                <label>Bimestre</label>
+                <select formControlName="bimestre" class="form-control">
+                  <option value="Primer bimestre">Primer bimestre</option>
+                  <option value="Segundo bimestre">Segundo bimestre</option>
+                  <option value="Tercer bimestre">Tercer bimestre</option>
+                </select>
+                <small id="bimestre" class="text-muted">Seleccione bimetre</small>
+              </div>
+              <button [disabled]="gestionGroup.status === 'INVALID'"
+                      class="btn btn-primary">Registrar Gestion</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -18,7 +18,7 @@
 <section class="app-container" *ngIf="authService.autenticado()">
     <aside class="app-sidebar">
         <a class="app-title">Administracion</a>
-        <a routerLink="/admin/listar">Gestiones</a>
+        <a routerLink="/admin/gestion/listar">Gestiones</a>
         <a routerLink="/admin/listar" [class.app-selected]="router.url === '/admin/listar' || router.url === '/admin/crear'">Usuarios</a>
         <a routerLink="/admin/listar">Cursos</a>
         <a routerLink="/admin/listar">Paralelos</a>

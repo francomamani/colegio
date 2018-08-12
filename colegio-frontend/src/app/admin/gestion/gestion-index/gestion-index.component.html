@@ -1,0 +1,43 @@
+<div class="container-fluid">
+  <div class="content">
+    <div class="row">
+      <div class="col-md-12">
+        Gestiones > <a routerLink="/admin/gestion/crear">Crear</a>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+            <tr>
+              <th>N.</th>
+              <th>Gestion</th>
+              <th>Bimestre</th>
+              <th>Acciones</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let gestion of gestiones; let i = index">
+              <td>{{ i + 1 }}</td>
+              <td>{{ gestion.gestion }}</td>
+              <td>{{ gestion.bimestre }}</td>
+              <td>
+                <button class="btn btn-info">
+                  <span class="fa fa-edit"></span>
+                </button>
+                <button class="btn btn-danger" (click)="destroy(gestion.gestion_id, i)">
+                  <span class="fa fa-trash"></span>
+                </button>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <pagination
+                  previousText="Anterior"
+                  nextText="Siguiente"
+                  (pageChanged)="loadPage($event)"
+                  [itemsPerPage]="controls.per_page"
+                  [totalItems]="controls.total"></pagination>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

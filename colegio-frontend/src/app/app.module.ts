@@ -20,6 +20,7 @@ import {AuthService} from "./auth.service";
 import {ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import {AuthGuard} from "./auth.guard";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import {AuthGuard} from "./auth.guard";
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     ReactiveFormsModule,
     HttpClientModule,
     BsDropdownModule.forRoot(),
